@@ -1,5 +1,5 @@
 import ast 
-user_input = (input("please enter your dictionary :"))
+user_input = input("please enter your dictionary :")
 dictionary = ast.literal_eval(user_input)
 score_max = -float('inf')
 for x in dictionary.values():

@@ -25,7 +25,6 @@ with open("mamd.txt","a+")as f1:     # lines.seek(0)
      print(f1.read())
 
 
-
     
     
 
